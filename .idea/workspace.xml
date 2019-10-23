@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="" />
+    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="lesson3">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +14,27 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1SIPv34hUSftpNB6ulV0LF80yH4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ifmo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
       <recent name="$PROJECT_DIR$/src" />
@@ -41,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WallClock">
-    <configuration name="Progression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson2.Progression" />
+  <component name="RunManager" selected="Application.Library">
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson4.Library" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson2.*" />
+          <option name="PATTERN" value="main.java.com.ifmo.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson2.SquareEquation" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson4.LinkedList" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson2.*" />
+          <option name="PATTERN" value="main.java.com.ifmo.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricClocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson2.SymmetricClocks" />
+    <configuration name="Random15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.Random15" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson2.*" />
+          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnluckyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson2.UnluckyNumbers" />
+    <configuration name="TwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.TwoArrays" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson2.*" />
+          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WallClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson2.WallClock" />
+    <configuration name="UnevenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.UnevenArray" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson2.*" />
+          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WallClock" />
-        <item itemvalue="Application.UnluckyNumbers" />
-        <item itemvalue="Application.SymmetricClocks" />
-        <item itemvalue="Application.SquareEquation" />
-        <item itemvalue="Application.Progression" />
+        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.UnevenArray" />
+        <item itemvalue="Application.TwoArrays" />
+        <item itemvalue="Application.Random15" />
       </list>
     </recent_temporary>
   </component>
@@ -128,19 +139,60 @@
       <option name="presentableId" value="Default" />
       <updated>1571248364074</updated>
       <workItem from="1571248366865" duration="599000" />
-      <workItem from="1571322966390" duration="10768000" />
+      <workItem from="1571322966390" duration="25189000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson3">
+      <created>1571507298329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571507298329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
+  </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="te" language="JAVA" />
-        <watch expression="count2 = 123456" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson3/Random4.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
