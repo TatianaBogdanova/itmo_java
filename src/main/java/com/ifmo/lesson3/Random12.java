@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson3;
+package com.ifmo.lesson3;
 
 public class Random12 {
     /*

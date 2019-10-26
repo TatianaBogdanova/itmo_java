@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson4;
+package com.ifmo.lesson4;
 
 /**
  * Библиотека помогает вести учет книг: какие книги и сколько в ней хранятся.

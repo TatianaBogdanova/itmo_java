@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson1;
+package com.ifmo.lesson1;
 
 public class HelloWorld {
     public static void main(String[] args) {

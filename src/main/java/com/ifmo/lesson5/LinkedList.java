@@ -1,6 +1,6 @@
-package main.java.com.ifmo.lesson5;
+package com.ifmo.lesson5;
 
-import main.java.com.ifmo.lesson5.Item;
+import com.ifmo.lesson5.Item;
 
 /**
  * Односвязный список, где каждый предыдущий

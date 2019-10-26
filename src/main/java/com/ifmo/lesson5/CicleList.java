@@ -1,11 +1,11 @@
-package main.java.com.ifmo.lesson5;
+package com.ifmo.lesson5;
 
-import main.java.com.ifmo.lesson4.LinkedList;
+import com.ifmo.lesson4.LinkedList;
 
 public class CicleList {
 
     public static void main(String[] args) {
-        main.java.com.ifmo.lesson4.LinkedList list = new LinkedList();
+        com.ifmo.lesson4.LinkedList list = new LinkedList();
         list.get(0);
 
         list.add("String1");

@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson5;
+package com.ifmo.lesson5;
 
 public class Circle  extends Oval {
     private  double r;

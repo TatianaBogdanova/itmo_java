@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson2;
+package com.ifmo.lesson2;
 
 public class First55 {
     /*

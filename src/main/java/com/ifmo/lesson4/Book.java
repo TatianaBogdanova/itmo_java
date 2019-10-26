@@ -1,4 +1,4 @@
-package main.java.com.ifmo.lesson4;
+package com.ifmo.lesson4;
 
 public class Book {
     String author;
