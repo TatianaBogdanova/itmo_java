@@ -1,6 +1,5 @@
 package main.java.com.ifmo.lesson2;
 
-import com.sun.prism.shader.Solid_ImagePattern_Loader;
 
 import java.util.Scanner;
 
