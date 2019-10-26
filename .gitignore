@@ -1,3 +1,5 @@
 traning-itmo-project.iml
 .idea/
 out/
+target/
+*.iml
