@@ -15,16 +15,22 @@ public class SymmetricClocks {
         int count =0;
         for( int first =0; first <=23; first++){
             for (int second =0; second <=59; second++){
-                String firstDataString;
+                String firstDataString, secondDataString;
                 if (new StringBuffer(String.valueOf(first)).reverse().toString().length() < 2){
                     firstDataString=new StringBuffer(String.valueOf(first)).reverse().toString()+"0";
                 }
                 else{
-
                     firstDataString=new StringBuffer(String.valueOf(first)).reverse().toString();
-
                 }
-                if (firstDataString.equals(String.valueOf(second))){
+
+                if (new StringBuffer(String.valueOf(second)).toString().length() < 2){
+                    secondDataString=new StringBuffer("0"+String.valueOf(second)).toString();
+                }
+                else{
+                    secondDataString=new StringBuffer(String.valueOf(second)).toString();
+                }
+                if (firstDataString.equals(secondDataString)){
+                    System.out.println(first + ":" + second);
                     count++;
                 }
             }
