@@ -27,9 +27,13 @@ public class BiggestInRandom {
 
         int max = 0;
 
-        int first = rnd/100;
-        int second = (rnd - first*100)/10;
-        int therd = rnd - first*100 - second* 10;
+
+        int first =0;
+        if (rnd> 100){ first= rnd/100;}
+        int second =0;
+        if (rnd > 10) { second = (rnd - first*100)/10;}
+        int therd =0;
+        if (rnd > 0){ therd= rnd - first*100 - second* 10;}
         if ((first >= second) && (first>= therd) ){
             max = first;
         }
