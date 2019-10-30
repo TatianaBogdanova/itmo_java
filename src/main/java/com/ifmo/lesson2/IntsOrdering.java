@@ -17,7 +17,7 @@ public class IntsOrdering {
      Возрастающая последовательность: -5, 0, 7
      */
     public static void main(String[] args) {
-        int a = 3, b = 9, c = -1;
+        int a = 5, b = 11, c = 99;
 
         String ordering = ordering(a, b, c);
 
@@ -25,12 +25,11 @@ public class IntsOrdering {
     }
 
     public static String ordering(int a, int b, int c) {
-        // TODO implement
         Integer first = null;
         Integer second = null;
         Integer therd = null;
 
-        if ((a>= b) && ( a>= c)){
+        if ((a> b) && ( a> c)){
             first = a;
             if (b > c){
                 second = b;
@@ -41,7 +40,7 @@ public class IntsOrdering {
                 therd = b;
             }
         }
-        if ((b>= a) && ( b>= c)){
+        else if ((b> a) && ( b> c)){
             first = b;
             if (a > c){
                 second = a;
@@ -51,9 +50,9 @@ public class IntsOrdering {
                 second = c;
                 therd = a;
             }
-        }
-        if ((c>= b) && ( c>= a)){
-            first = a;
+        } else
+        if ((c> b) && ( c> a)){
+            first = c;
             if (b > a){
                 second = b;
                 therd = a;
