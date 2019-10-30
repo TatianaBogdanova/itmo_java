@@ -38,7 +38,7 @@ public class LinkedList {
     public Object get(int i) {
         // TODO implement
         if (i==0){
-            if (this == null){
+            if ((this == null) || (this.head == null)){
                 return null;
             }
             else{
@@ -48,7 +48,7 @@ public class LinkedList {
         else{
             Item temp = this.head;
             int count = 0;
-            while (count != (i-1)){
+            while (count != i){
                 count++;
                 temp = temp.next;
                 if (temp == null){
@@ -56,25 +56,6 @@ public class LinkedList {
                 }
             }
             return temp.value;
-        }
-    }
-
-    public Object getlink(int i) {
-        // TODO implement
-        Item temp = this.head;
-        if (i==0){
-            return temp.next;
-        }
-        else{
-            int count = 1;
-            while (count != (i-1)){
-                temp = temp.next;
-                count++;
-                if (temp == null){
-                    return null;
-                }
-            }
-            return temp.next;
         }
     }
 
@@ -88,7 +69,7 @@ public class LinkedList {
     public Object remove(int i) {
         // TODO implement
         if (i==0){
-            if (this == null){
+            if ((this == null) || (this.head == null)){
                 return null;
             }
             else{
@@ -101,7 +82,7 @@ public class LinkedList {
             Item temp = this.head;
             Item previos = temp;
             int count = 0;
-            while (count != (i-1)){
+            while (count != i){
                 count++;
                 previos = temp;
                 temp = temp.next;
@@ -121,6 +102,7 @@ public class LinkedList {
         list.add("String1");
         list.add("String2");
         list.add("String3");
+        list.add("String4");
 
         String string = (String)list.get(3);
 
