@@ -27,8 +27,8 @@ public class SquareEquation {
         // TODO implement
         if (((b*b- 4*a*c) >= 0.0) && (a != 0)){
             double[] mas = new double[2];
-            mas[0] = (-b+Math.sqrt(b*b- 4*a*c))/2*a;
-            mas[1] = (-b-Math.sqrt(b*b- 4*a*c))/2*a;
+            mas[1] = ((-b+Math.sqrt(b*b- 4*a*c))/2*a)/4;
+            mas[0] = ((-b-Math.sqrt(b*b- 4*a*c))/2*a)/4;
             return mas;
         }
         return null;
