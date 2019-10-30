@@ -24,7 +24,7 @@ public class UnevenArray {
         // TODO implement
         int max =99;
         int min =1;
-        int[] array = new int[(max-min)/2];
+        int[] array = new int[(max-min)/2+1];
         for (int count =0; count < array.length; count++){
             array[count]=  min+count*2;
         }
