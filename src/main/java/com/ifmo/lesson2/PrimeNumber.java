@@ -24,12 +24,16 @@ public class PrimeNumber {
 
     public static boolean isPrime(int n) {
         // TODO implement
-        for(int  param = 2; param <= Math.sqrt(n); param++){
-            if (n%param !=0){
-                return  true;
+        if (n > 2) {
+            for (int param = 2; param <= Math.sqrt(n); param++) {
+                if (n % param != 0) {
+                    return true;
+                }
             }
-        }
 
-        return false;
+            return false;
+        }
+        else
+            return true;
     }
 }
