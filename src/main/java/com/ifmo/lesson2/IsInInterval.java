@@ -27,7 +27,7 @@ public class IsInInterval {
     public static String isInInterval(int rnd) {
         // TODO implement
         String article = "";
-        if ((rnd < 25) || (rnd > 100)){
+        if ((rnd <= 25) || (rnd > 100)){
             article = "не";
         }
 
