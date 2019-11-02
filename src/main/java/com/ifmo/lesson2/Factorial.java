@@ -20,7 +20,7 @@ public class Factorial {
     public static long factorial(int n) {
         // TODO implement
         if ( n == 0){
-            return  n;
+            return  1;
         }
         else {
             int factr = 1;
