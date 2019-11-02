@@ -1,5 +1,7 @@
 package com.ifmo.lesson3;
 
+import java.sql.SQLOutput;
+
 public class Random8 {
     /*
     Создайте массив из 8 случайных целых чисел из отрезка [1;10]. Выведите массив на экран
@@ -10,22 +12,23 @@ public class Random8 {
         int[] randomNumbers = randomNumbers();
 
         // TODO implement
-        for (int count =0; count < 10; count++){
-            System.out.println(randomNumbers[count]);
+        for (int count =0; count < 8; count++){
+            System.out.print(randomNumbers[count] + " ");
         }
+        System.out.println();
 
         int[] replacedWithZeros = replaceWithZeros(randomNumbers);
 
         // TODO implement
-        for (int count =0; count < 10; count++){
+        for (int count =0; count < 8; count++){
             System.out.println(randomNumbers[count]);
         }
     }
 
     public static int[] randomNumbers() {
         // TODO implement
-        int[] randNum = new int[10];
-        for (int count =0; count < 10; count++){
+        int[] randNum = new int[8];
+        for (int count =0; count < 8; count++){
             randNum[count]= 1 + (int)(Math.random()*9);
         }
         return randNum;
@@ -35,7 +38,7 @@ public class Random8 {
         // TODO implement
         int[] randNum = randomNumbers.clone();
         for (int count = 0; count < randomNumbers.length/2; count++){
-            randomNumbers[2*count+1]=0;
+            randomNumbers[2*count]=0;
         }
 
         return randNum;
