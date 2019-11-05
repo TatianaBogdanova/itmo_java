@@ -24,6 +24,7 @@ public class LuckyTickets {
             int secondPart = temp/100000 + (temp - 100000*(temp/100000))/10000 +
                     (temp - 100000*(temp/100000) - ((temp - 100000*(temp/100000))/10000)* 10000 )/1000 ;
             if ( firstPart == secondPart){
+                System.out.println("f"+firstPart +"s"+secondPart);
                 gift++;
             }
 
