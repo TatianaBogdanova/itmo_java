@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="lesson4" />
+    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson10/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson11/TopWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson11/wap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson12/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson13/StreamTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wap.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/BiggestInRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/ClosestToTen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/Count2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/DigitsSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/Dividers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/First20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/First55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/FloatRound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/IntsOrdering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/IsEven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/IsInInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/LuckyTickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/NonNegativeSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/Progression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/SquareEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/SymmetricClocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/UnluckyNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/traning-itmo-project/main/java/com/ifmo/lesson2/WallClock.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +39,14 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,21 +57,32 @@
   <component name="ProjectId" id="1SIPv34hUSftpNB6ulV0LF80yH4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ifmo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo/lesson11" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ifmo.lesson8" />
+      <recent name="main.java.com.ifmo.lesson5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,13 +97,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Library">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson4.Library" />
+  <component name="RunManager" selected="Application.StreamTasks">
+    <configuration name="BiggestInRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson2.BiggestInRandom" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson4.*" />
+          <option name="PATTERN" value="com.ifmo.lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson4.LinkedList" />
+    <configuration name="CollectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson12.CollectionUtils" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson4.*" />
+          <option name="PATTERN" value="com.ifmo.lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.Random15" />
+    <configuration name="StreamTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson13.StreamTasks" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
+          <option name="PATTERN" value="com.ifmo.lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.TwoArrays" />
+    <configuration name="TopWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson11.TopWords" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
+          <option name="PATTERN" value="com.ifmo.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnevenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.ifmo.lesson3.UnevenArray" />
+    <configuration name="tmpMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson9.tmpMain" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.ifmo.lesson3.*" />
+          <option name="PATTERN" value="com.ifmo.lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Library" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.UnevenArray" />
-        <item itemvalue="Application.TwoArrays" />
-        <item itemvalue="Application.Random15" />
+        <item itemvalue="Application.StreamTasks" />
+        <item itemvalue="Application.CollectionUtils" />
+        <item itemvalue="Application.TopWords" />
+        <item itemvalue="Application.tmpMain" />
+        <item itemvalue="Application.BiggestInRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571248364074</updated>
       <workItem from="1571248366865" duration="599000" />
-      <workItem from="1571322966390" duration="25352000" />
+      <workItem from="1571322966390" duration="47666000" />
+      <workItem from="1572975479056" duration="15424000" />
     </task>
     <task id="LOCAL-00001" summary="lesson3">
       <created>1571507298329</created>
@@ -152,7 +201,140 @@
       <option name="project" value="LOCAL" />
       <updated>1571844165087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson4">
+      <created>1571937888337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571937888337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson5">
+      <created>1572087135298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572087135298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson4">
+      <created>1572087527332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572087527332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="no null pASSed test">
+      <created>1572110859479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572110859479</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson5">
+      <created>1572112572774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572112572774</updated>
+    </task>
+    <task id="LOCAL-00008" summary="primeNumber">
+      <created>1572461147335</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572461147335</updated>
+    </task>
+    <task id="LOCAL-00009" summary="biggestToRandom">
+      <created>1572461434885</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572461434885</updated>
+    </task>
+    <task id="LOCAL-00010" summary="list">
+      <created>1572461781223</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572461781223</updated>
+    </task>
+    <task id="LOCAL-00011" summary="library">
+      <created>1572463089857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572463089857</updated>
+    </task>
+    <task id="LOCAL-00012" summary="clock">
+      <created>1572465314392</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465314392</updated>
+    </task>
+    <task id="LOCAL-00013" summary="instOrder">
+      <created>1572465485882</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465485882</updated>
+    </task>
+    <task id="LOCAL-00014" summary="squareEquation">
+      <created>1572465727598</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465727598</updated>
+    </task>
+    <task id="LOCAL-00015" summary="uneven">
+      <created>1572465871260</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465871260</updated>
+    </task>
+    <task id="LOCAL-00016" summary="isininterval">
+      <created>1572465991445</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465991445</updated>
+    </task>
+    <task id="LOCAL-00017" summary="bugfix">
+      <created>1572716838747</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572716838747</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bugfix">
+      <created>1572716998831</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572716998831</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bugfix">
+      <created>1572717142835</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1572717142835</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lesson9">
+      <created>1572975606260</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572975606260</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lesson5">
+      <created>1572975829642</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572975829642</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +345,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -172,7 +356,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="no null pASSed test" />
+    <MESSAGE value="primeNumber" />
+    <MESSAGE value="biggestToRandom" />
+    <MESSAGE value="list" />
+    <MESSAGE value="library" />
+    <MESSAGE value="clock" />
+    <MESSAGE value="instOrder" />
+    <MESSAGE value="squareEquation" />
+    <MESSAGE value="uneven" />
+    <MESSAGE value="isininterval" />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="lesson9" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -183,19 +380,19 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Check.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson9/tmpMain.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson4/Library.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson9/tmpMain.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
