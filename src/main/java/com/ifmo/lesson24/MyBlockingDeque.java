@@ -13,37 +13,34 @@ public class MyBlockingDeque<T> {
         while (true)
         synchronized (MyBlockingDeque.this) {
             try {
-                MyBlockingDeque.this.wait();
+                if (!queue.isEmpty()) {
+                    T t = queue.get(0);
+                    queue.remove(0);
+                    readyAdd = true;
+                    return t;
+                }
+                else{
+                    wait();
+                    readyAdd = true;
+                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if (!Objects.equals(queue.size(), 0)) {
-                T t = queue.get(0);
-                queue.remove(0);
-                return t;
-            }
-            else{
-                readyAdd = true;
-                try {
-                    MyBlockingDeque.this.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
+
         }
     }
 
     public boolean add(T t) {
         while (true) {
-            synchronized (MyBlockingDeque.this) {
-                if ((!Objects.equals(queue.size(), size)) && (readyAdd )){
+            synchronized (this) {
+                if (queue.size() != size){
                     queue.add(t);
-                    MyBlockingDeque.this.notify();
+                    notifyAll();
                     return true;
                 }
                 else {
                     readyAdd = false;
-                    MyBlockingDeque.this.notifyAll();
+                    notifyAll();
                 }
             }
         }
