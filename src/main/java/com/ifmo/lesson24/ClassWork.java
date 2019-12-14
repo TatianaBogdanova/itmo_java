@@ -10,7 +10,7 @@ public class ClassWork {
             @Override
             public void run() {
                 Integer i = 0;
-                while (i < 4000) {
+                while (i < 3000) {
                     i++;
                     queue.add(i.toString());
                 }
@@ -50,6 +50,7 @@ public class ClassWork {
 
             produser.join();
             consumer.join();
+            consumer2.join();
 
         }
 }
