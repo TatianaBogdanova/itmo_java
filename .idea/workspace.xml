@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson15/IOStreamTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson15/RandomInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson15/SawInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/Echo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/PrintClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/PrintServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson16/print/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/Bently.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/JanapFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/MainCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/MainPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson17/UsaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson22/ProduserConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/Bank.java" afterDir="false" />
+    <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="CLASS_WORK">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/ClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/MyBlockingDeque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson22/ProduserConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson22/ProduserConsumer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +46,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo/lesson11" />
-      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ifmo.lesson24" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ifmo.lesson17" />
       <recent name="com.ifmo.lesson8" />
       <recent name="main.java.com.ifmo.lesson5" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/ifmo" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ifmo/lesson11" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bank">
+  <component name="RunManager" selected="Application.ClassWork">
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson24.Bank" />
       <module name="traning-itmo-project" />
@@ -105,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson16.print.Main" />
+    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson24.ClassWork" />
       <module name="traning-itmo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ifmo.lesson16.print.*" />
+          <option name="PATTERN" value="com.ifmo.lesson24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassWork" />
         <item itemvalue="Application.Bank" />
         <item itemvalue="Application.ProduserConsumer" />
         <item itemvalue="Application.MainCarFactory" />
         <item itemvalue="Application.PrintClient" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +165,9 @@
       <updated>1571248364074</updated>
       <workItem from="1571248366865" duration="599000" />
       <workItem from="1571322966390" duration="47666000" />
-      <workItem from="1572975479056" duration="31955000" />
+      <workItem from="1572975479056" duration="33549000" />
+      <workItem from="1576157954949" duration="222000" />
+      <workItem from="1576337324173" duration="4854000" />
     </task>
     <task id="LOCAL-00001" summary="lesson3">
       <created>1571507298329</created>
@@ -335,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573736303445</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CLASS_WORK">
+      <created>1575997596224</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575997596224</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +366,8 @@
     <MESSAGE value="lesson9" />
     <MESSAGE value="lesson5" />
     <MESSAGE value="lesson121119" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson121119" />
+    <MESSAGE value="CLASS_WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="CLASS_WORK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,6 +391,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson9/tmpMain.java</url>
           <line>5</line>
           <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ifmo/lesson22/ProduserConsumer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
