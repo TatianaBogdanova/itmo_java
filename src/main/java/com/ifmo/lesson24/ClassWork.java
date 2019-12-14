@@ -10,7 +10,7 @@ public class ClassWork {
             @Override
             public void run() {
                 Integer i = 0;
-                while (i < 4) {
+                while (i < 4000) {
                     i++;
                     queue.add(i.toString());
                 }
@@ -43,6 +43,7 @@ public class ClassWork {
             MyBlockingDeque<String> queue = new MyBlockingDeque<>();
             Thread produser = new Thread(new Produser(queue));
             Thread consumer = new Thread(new Consumer(queue));
+            Thread consumer2 = new Thread(new Consumer(queue));
 
             produser.start();
             consumer.start();
