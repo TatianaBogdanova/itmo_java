@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson25/All13Friday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson25/TimeToNewYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/MyBlockingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/MyBlockingDeque.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +77,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ClassWork">
+    <configuration name="All13Friday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson25.All13Friday" />
+      <module name="traning-itmo-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifmo.lesson25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson24.Bank" />
       <module name="traning-itmo-project" />
@@ -102,32 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson17.MainCarFactory" />
-      <module name="traning-itmo-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifmo.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson16.print.PrintClient" />
-      <module name="traning-itmo-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifmo.lesson16.print.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProduserConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson22.ProduserConsumer" />
       <module name="traning-itmo-project" />
@@ -141,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeToNewYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifmo.lesson25.TimeToNewYear" />
+      <module name="traning-itmo-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifmo.lesson25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClassWork" />
+        <item itemvalue="Application.TimeToNewYear" />
+        <item itemvalue="Application.All13Friday" />
         <item itemvalue="Application.Bank" />
         <item itemvalue="Application.ProduserConsumer" />
-        <item itemvalue="Application.MainCarFactory" />
-        <item itemvalue="Application.PrintClient" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +166,7 @@
       <workItem from="1571322966390" duration="47666000" />
       <workItem from="1572975479056" duration="33549000" />
       <workItem from="1576157954949" duration="222000" />
-      <workItem from="1576337324173" duration="8222000" />
+      <workItem from="1576337324173" duration="11289000" />
     </task>
     <task id="LOCAL-00001" summary="lesson3">
       <created>1571507298329</created>
@@ -349,7 +350,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576345325890</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="CLASS_WORK this code work">
+      <created>1576346035686</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576346035687</updated>
+    </task>
+    <task id="LOCAL-00028" summary="CLASS_WORK this code work">
+      <created>1576601525853</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576601525853</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CLASS_WORK this code work">
+      <created>1576602019306</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576602019306</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +408,8 @@
     <MESSAGE value="lesson5" />
     <MESSAGE value="lesson121119" />
     <MESSAGE value="CLASS_WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLASS_WORK" />
+    <MESSAGE value="CLASS_WORK this code work" />
+    <option name="LAST_COMMIT_MESSAGE" value="CLASS_WORK this code work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
