@@ -10,16 +10,18 @@ public class MyBlockingDeque<T> {
     private boolean readyAdd = true;
 
     public T take() throws InterruptedException {
-        T t = null;
         synchronized (MyBlockingDeque.this) {
-            while (queue.isEmpty()) {
-                t = queue.remove(0);
+            while (true) {
+                if (!queue.isEmpty()) {
+                    T t = queue.remove(0);
+                    readyAdd = true;
+                    return t;
+                }
+                wait();
                 readyAdd = true;
+
             }
-            wait();
-            readyAdd = true;
         }
-        return t;
     }
 
     public boolean add(T t) {

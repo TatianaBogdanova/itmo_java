@@ -22,14 +22,19 @@ public class ClassWork {
             }
         }
 
-        public static class Consumer implements Runnable {
+        public static class Consumer implements Runnable  {
             public MyBlockingDeque<String> queue;
 
             @Override
             public void run() {
-                String text;
-                while ( (text =queue.take()) != POISON_PILL) {
-                        System.out.println(text);
+                String text = null;
+                while (true) {
+                    try {
+                        if (!((text =queue.take()) != POISON_PILL)) break;
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(text);
                 }
             }
 
