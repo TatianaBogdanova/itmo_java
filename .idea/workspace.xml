@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab4dd6a-047d-4f51-9308-bf8742d403b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson25/All13Friday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson25/TimeToNewYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/MyBlockingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifmo/lesson24/MyBlockingDeque.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,7 @@
       <workItem from="1571322966390" duration="47666000" />
       <workItem from="1572975479056" duration="33549000" />
       <workItem from="1576157954949" duration="222000" />
-      <workItem from="1576337324173" duration="11289000" />
+      <workItem from="1576337324173" duration="12133000" />
     </task>
     <task id="LOCAL-00001" summary="lesson3">
       <created>1571507298329</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576602019306</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="CLASS_WORK this code work">
+      <created>1576603053853</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1576603053853</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

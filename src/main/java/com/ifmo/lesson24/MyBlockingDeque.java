@@ -10,29 +10,22 @@ public class MyBlockingDeque<T> {
 
     public T take() throws InterruptedException {
         synchronized (MyBlockingDeque.this) {
-            while (true) {
-                if (!queue.isEmpty()) {
-                    T t = queue.remove(0);
-                    return t;
-                }
+            while (queue.isEmpty()) {
                 wait();
-
             }
+            notify();
+            return queue.remove(0);
         }
     }
 
-    public boolean add(T t) {
-        while (true) {
-            synchronized (this) {
-                if (queue.size() != size) {
-                    queue.add(t);
-                    notifyAll();
-                    return true;
-                } else {
-                    notifyAll();
-                }
+    public boolean add(T t) throws InterruptedException {
+        synchronized (MyBlockingDeque.this) {
+            while (queue.size() == 10) {
+                wait();
             }
+            queue.add(t);
+            notify();
+            return true;
         }
-//
     }
 }

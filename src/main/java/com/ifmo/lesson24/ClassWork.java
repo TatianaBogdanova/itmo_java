@@ -12,9 +12,17 @@ public class ClassWork {
                 Integer i = 0;
                 while (i < 3000) {
                     i++;
-                    queue.add(i.toString());
+                    try {
+                        queue.add(i.toString());
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
-                queue.add(POISON_PILL);
+                try {
+                    queue.add(POISON_PILL);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
 
             public Produser(MyBlockingDeque<String> queue) {
