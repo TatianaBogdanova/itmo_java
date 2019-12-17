@@ -5,40 +5,31 @@ import java.util.*;
 
 public class MyBlockingDeque<T> {
 
-    private LinkedList<T> queue= new LinkedList<T>();
+    private LinkedList<T> queue = new LinkedList<T>();
     private int size = 10;
     private boolean readyAdd = true;
 
-    public T  take() {
-        while (true)
+    public T take() throws InterruptedException {
+        T t = null;
         synchronized (MyBlockingDeque.this) {
-            try {
-                if (!queue.isEmpty()) {
-                    T t = queue.get(0);
-                    queue.remove(0);
-                    readyAdd = true;
-                    return t;
-                }
-                else{
-                    wait();
-                    readyAdd = true;
-                }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            while (queue.isEmpty()) {
+                t = queue.remove(0);
+                readyAdd = true;
             }
-
+            wait();
+            readyAdd = true;
         }
+        return t;
     }
 
     public boolean add(T t) {
         while (true) {
             synchronized (this) {
-                if (queue.size() != size){
+                if (queue.size() != size) {
                     queue.add(t);
                     notifyAll();
                     return true;
-                }
-                else {
+                } else {
                     readyAdd = false;
                     notifyAll();
                 }
